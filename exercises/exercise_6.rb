@@ -18,4 +18,4 @@ class Employee < ActiveRecord::Base
 end
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-# create more employees
+@store1.employees.create(first_name: "Bobby", last_name: "Moor", hourly_rate: 30)
